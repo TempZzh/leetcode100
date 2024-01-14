@@ -34,7 +34,7 @@ public:
 };
 
 int main() {
-    auto root = TreeNode();
+    TreeNode root;
     for (auto e : Solution().inorderTraversal(&root)) {
         cout << e << endl;
     }
