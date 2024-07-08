@@ -8,8 +8,3 @@ class Solution:
                 nums[i] = n
                 i += 1
         return i
-
-if __name__ == '__main__':
-    nums = [1, 2, 3]
-    Solution().removeDuplicates(nums)
-    print(nums)
